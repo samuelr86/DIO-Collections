@@ -1,4 +1,4 @@
-package ordenacao;
+package List.ordenacao;
 
 public class Gato implements Comparable<Gato>{
     private String nome;

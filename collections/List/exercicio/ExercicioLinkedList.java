@@ -1,4 +1,4 @@
-package exercicio;
+package List.exercicio;
 
 import java.util.LinkedList;
 import java.util.List;
