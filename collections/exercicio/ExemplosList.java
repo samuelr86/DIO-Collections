@@ -1,4 +1,4 @@
-package conhecendoMetodos;
+package exercicio;
 
 import java.util.ArrayList;
 import java.util.Collections;
