@@ -59,3 +59,26 @@ Extende de HashSet.<br>
 Internamente usa o LinkedHashMap para armazenamento.<br>
 Mantém os elementos por ordem de inserção<br>
 Também permite no maximo um elemento nulo.
+
+## Map
+
+A interface pertence ao pacote java.util.<br>
+Não extende da interface Collections.<br>
+É um objeto que podemos colocar multiplos elementos.<br>
+Cada objeto dentro de Map tem uma chave e um valor unicos, porém os valores podem se repetir em outros objetos.<br>
+Nenhuma das três são sincronizaveis porém é possível utilizar desse recurso:
+```
+    Collections.synchronizedMap();
+```
+### HashMap
+A ordem de iteração é aleatória.<br>
+Permite chaves nulas.<br>
+### LinkedHashMap
+A ordem de iteração é de acordo com a ordem de inserção.<br>
+Permite chaves nulas.<br>
+### TreeMap
+Tem um performance menor em relação aos hashTable e hashMap.<br>
+A ordem de iteração é de acordo com a ordem natural.<br>
+Não permite chaves nulas.<br>
+
+Todas elas necessitam rescrever os métodos equals e hashCode.
