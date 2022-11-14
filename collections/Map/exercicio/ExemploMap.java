@@ -81,22 +81,42 @@ public class ExemploMap {
         }
 
         System.out.println();
+        
+        
+        
+        
+        
         System.out.println("Exiba a soma dos consumos:");
         Iterator<Double> iterator = carrosPopulares.values().iterator();
         Double soma = 0d;
         while(iterator.hasNext()) soma+=iterator.next();
         System.out.println(soma);
 
+
+
+
+
+
+
         System.out.println();
         System.out.println("Exiba a média dos consumos deste dicionário de carros:");
         System.out.println(soma/(carrosPopulares.size()));
 
+        
+        
+        
+        
+        
         System.out.println();
         System.out.println("Remova os modelos com o consumo igual a 15.6km/l");
         Iterator<Double> iterator2 = carrosPopulares.values().iterator();
         while(iterator2.hasNext()) if(iterator2.next().equals(15.6)) iterator2.remove();
         System.out.println(carrosPopulares);
 
+
+
+
+        
         System.out.println();
         System.out.println("Exiba todos os carros na ordem em que foram informados:");
         Map<String, Double> carrosPopulares1 = new LinkedHashMap<>(){{
